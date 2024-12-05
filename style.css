@@ -1,0 +1,168 @@
+body{
+	background-color: Black;
+	color: #0073b5; 
+	font-family: KungFu1;
+	margin: 0;
+}
+
+
+@font-face{
+	font-family: KungFu1;
+	src: url('FONTS/kungfumaster.ttf');
+}
+
+@font-face{
+	font-family: KungFu2;
+	src: url('FONTS/kungfumastertwo.ttf');
+}
+
+@font-face{
+	font-family: manga;
+	src: url('FONTS/animeace2_reg.otf');
+}
+
+@font-face{
+	font-family: Plain;
+	src: url('FONTS/PermanentMarker-Regular.ttf');
+}
+
+@font-face{
+	font-family: KungFu3;
+	src: url('FONTS/kungfumasterout.ttf');
+}
+
+
+form{
+	color: black;
+	background-color: #0073b5; 
+}
+
+header{
+	width: 100%;
+	height: 20vh;
+	margin: 0px;
+	background-color: #0073b5;
+	position: fixed;
+	top: 0;
+	
+}
+
+h1{
+	background-color: Black;
+	color: #0073b5;
+	font-size: 72px;
+	font-weight: 20;
+	font-family: KungFu2;
+	text-align: center; 
+}
+
+h2{
+	background-color: #0073b5;
+	color: Black;
+	font-family: Plain;
+	font-weight: 100;
+	text-transform: uppercase;
+	text-align: center; 
+	font-size: 72px; 
+}
+h3{
+	background-color: White;
+	color: Black;
+	font-family: KungFu3;
+	font-weight: 50;
+	font-size: 50px;
+}
+
+h4{
+		background-color: #0073b5;
+		color: maroon;
+		font-weight: 50;
+		font-size: 50px;
+}
+
+h5{
+	background-color: blue;
+	color: red; 
+	font-size: 50px;
+	font-weight: 200;
+	text-decoration: underline;
+}
+
+h6{
+	background-color: Maroon;
+	color: black;
+	font-family: KungFu1; 
+	font-size: 60px;
+	font-weight: 20;
+	text-decoration: underline; 
+	border: 2px solid black;
+}
+
+
+p{ 
+	font-family: manga;
+	font-size: 40px;
+	font-weight: 20;
+	text-align: center;
+	
+}
+
+hr{
+	border-color: #0073b5;
+	width: 50%;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 20px;
+	padding: 5px; 
+	background-color: #0073b5;
+	border: 2px black;
+	color: Black;
+	text-decoration: none; 
+}
+
+a{
+	color: black; 
+	font-family: manga;
+	text-decoration: none;
+}
+
+nav{
+	background-color: black;
+
+}
+
+ul{
+	width: 50%;
+	background-color: black; 
+	float: center; 
+	text-align:center;
+	margin: 0px auto;
+}
+
+img.imgSize{
+	width: auto;
+	height: 200px;
+	margin: 10px; 
+}
+
+img.reflection{
+	width: auto;
+	height: 300px;
+	margin: 0px;
+}
+
+img.shroom{
+	Height: auto;
+	width: 500px;
+	border: #0073b5;
+
+}
+
+.description{
+	font-family: Plain;
+	font-size: 50px;
+	font-weight: 20;
+}
